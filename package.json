@@ -1,0 +1,48 @@
+{
+  "name": "restaurantapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.7",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-firebase/app": "^12.7.1",
+    "@react-native-firebase/auth": "^12.8.0",
+    "@react-native-firebase/firestore": "^12.7.1",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/stack": "^6.0.7",
+    "firebase": "^8.9.1",
+    "lodash": "^4.17.21",
+    "native-base": "^2.13.8",
+    "react": "17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-native": "0.65.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-onboarding-swiper": "^1.1.4",
+    "react-native-reanimated": "^2.3.0-alpha.2",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.5.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/runtime": "^7.15.3",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
